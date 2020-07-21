@@ -1,0 +1,23 @@
+/* Styles for Column/Columns blocks */
+
+div.wp-block-columns div.wp-block-column:not(:first-child) {
+    margin-left: 3em;
+}
+
+@media only screen and (max-width: 781px) {
+    div.wp-block-columns div.wp-block-column:not(:first-child) {
+        margin-left: 1.7em;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    div.wp-block-columns div.wp-block-column:not(:first-child) {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 781px) and (min-width: 600px) {
+    .wp-block-column:nth-child(2n) {
+        margin-left: 0;
+    }
+}

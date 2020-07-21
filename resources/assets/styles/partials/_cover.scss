@@ -1,0 +1,23 @@
+/* Styles for Cover block*/
+
+.wp-block-cover {
+  background-color: $dark-gray;
+  background-size: cover;
+  background-position: 50%;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  min-height: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 5rem;
+  padding-bottom: 5.5em;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
